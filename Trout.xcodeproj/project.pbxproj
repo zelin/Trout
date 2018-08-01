@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9100982111F39C007DCF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9100972111F39C007DCF17 /* AppDelegate.swift */; };
+		1D91009A2111F39C007DCF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9100992111F39C007DCF17 /* ViewController.swift */; };
+		1D91009D2111F39C007DCF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D91009B2111F39C007DCF17 /* Main.storyboard */; };
+		1D91009F2111F39E007DCF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D91009E2111F39E007DCF17 /* Assets.xcassets */; };
+		1D9100A22111F39E007DCF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9100A02111F39E007DCF17 /* LaunchScreen.storyboard */; };
+		1D9100AD2111F39E007DCF17 /* TroutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9100AC2111F39E007DCF17 /* TroutTests.swift */; };
+		1D9100B82111F39E007DCF17 /* TroutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9100B72111F39E007DCF17 /* TroutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9100A92111F39E007DCF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D91008C2111F39C007DCF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9100932111F39C007DCF17;
+			remoteInfo = Trout;
+		};
+		1D9100B42111F39E007DCF17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D91008C2111F39C007DCF17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9100932111F39C007DCF17;
+			remoteInfo = Trout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D9100942111F39C007DCF17 /* Trout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9100972111F39C007DCF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D9100992111F39C007DCF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D91009C2111F39C007DCF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D91009E2111F39E007DCF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D9100A12111F39E007DCF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D9100A32111F39E007DCF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9100A82111F39E007DCF17 /* TroutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9100AC2111F39E007DCF17 /* TroutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroutTests.swift; sourceTree = "<group>"; };
+		1D9100AE2111F39E007DCF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9100B32111F39E007DCF17 /* TroutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9100B72111F39E007DCF17 /* TroutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroutUITests.swift; sourceTree = "<group>"; };
+		1D9100B92111F39E007DCF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9100912111F39C007DCF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9100A52111F39E007DCF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9100B02111F39E007DCF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D91008B2111F39C007DCF17 = {
+			isa = PBXGroup;
+			children = (
+				1D9100962111F39C007DCF17 /* Trout */,
+				1D9100AB2111F39E007DCF17 /* TroutTests */,
+				1D9100B62111F39E007DCF17 /* TroutUITests */,
+				1D9100952111F39C007DCF17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9100952111F39C007DCF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9100942111F39C007DCF17 /* Trout.app */,
+				1D9100A82111F39E007DCF17 /* TroutTests.xctest */,
+				1D9100B32111F39E007DCF17 /* TroutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D9100962111F39C007DCF17 /* Trout */ = {
+			isa = PBXGroup;
+			children = (
+				1D9100972111F39C007DCF17 /* AppDelegate.swift */,
+				1D9100992111F39C007DCF17 /* ViewController.swift */,
+				1D91009B2111F39C007DCF17 /* Main.storyboard */,
+				1D91009E2111F39E007DCF17 /* Assets.xcassets */,
+				1D9100A02111F39E007DCF17 /* LaunchScreen.storyboard */,
+				1D9100A32111F39E007DCF17 /* Info.plist */,
+			);
+			path = Trout;
+			sourceTree = "<group>";
+		};
+		1D9100AB2111F39E007DCF17 /* TroutTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D9100AC2111F39E007DCF17 /* TroutTests.swift */,
+				1D9100AE2111F39E007DCF17 /* Info.plist */,
+			);
+			path = TroutTests;
+			sourceTree = "<group>";
+		};
+		1D9100B62111F39E007DCF17 /* TroutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D9100B72111F39E007DCF17 /* TroutUITests.swift */,
+				1D9100B92111F39E007DCF17 /* Info.plist */,
+			);
+			path = TroutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D9100932111F39C007DCF17 /* Trout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9100BC2111F39E007DCF17 /* Build configuration list for PBXNativeTarget "Trout" */;
+			buildPhases = (
+				1D9100902111F39C007DCF17 /* Sources */,
+				1D9100912111F39C007DCF17 /* Frameworks */,
+				1D9100922111F39C007DCF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trout;
+			productName = Trout;
+			productReference = 1D9100942111F39C007DCF17 /* Trout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D9100A72111F39E007DCF17 /* TroutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9100BF2111F39E007DCF17 /* Build configuration list for PBXNativeTarget "TroutTests" */;
+			buildPhases = (
+				1D9100A42111F39E007DCF17 /* Sources */,
+				1D9100A52111F39E007DCF17 /* Frameworks */,
+				1D9100A62111F39E007DCF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9100AA2111F39E007DCF17 /* PBXTargetDependency */,
+			);
+			name = TroutTests;
+			productName = TroutTests;
+			productReference = 1D9100A82111F39E007DCF17 /* TroutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D9100B22111F39E007DCF17 /* TroutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9100C22111F39E007DCF17 /* Build configuration list for PBXNativeTarget "TroutUITests" */;
+			buildPhases = (
+				1D9100AF2111F39E007DCF17 /* Sources */,
+				1D9100B02111F39E007DCF17 /* Frameworks */,
+				1D9100B12111F39E007DCF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9100B52111F39E007DCF17 /* PBXTargetDependency */,
+			);
+			name = TroutUITests;
+			productName = TroutUITests;
+			productReference = 1D9100B32111F39E007DCF17 /* TroutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D91008C2111F39C007DCF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Neberox Technologies";
+				TargetAttributes = {
+					1D9100932111F39C007DCF17 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1D9100A72111F39E007DCF17 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1D9100932111F39C007DCF17;
+					};
+					1D9100B22111F39E007DCF17 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1D9100932111F39C007DCF17;
+					};
+				};
+			};
+			buildConfigurationList = 1D91008F2111F39C007DCF17 /* Build configuration list for PBXProject "Trout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D91008B2111F39C007DCF17;
+			productRefGroup = 1D9100952111F39C007DCF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D9100932111F39C007DCF17 /* Trout */,
+				1D9100A72111F39E007DCF17 /* TroutTests */,
+				1D9100B22111F39E007DCF17 /* TroutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D9100922111F39C007DCF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9100A22111F39E007DCF17 /* LaunchScreen.storyboard in Resources */,
+				1D91009F2111F39E007DCF17 /* Assets.xcassets in Resources */,
+				1D91009D2111F39C007DCF17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9100A62111F39E007DCF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9100B12111F39E007DCF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9100902111F39C007DCF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91009A2111F39C007DCF17 /* ViewController.swift in Sources */,
+				1D9100982111F39C007DCF17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9100A42111F39E007DCF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9100AD2111F39E007DCF17 /* TroutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9100AF2111F39E007DCF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9100B82111F39E007DCF17 /* TroutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9100AA2111F39E007DCF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9100932111F39C007DCF17 /* Trout */;
+			targetProxy = 1D9100A92111F39E007DCF17 /* PBXContainerItemProxy */;
+		};
+		1D9100B52111F39E007DCF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9100932111F39C007DCF17 /* Trout */;
+			targetProxy = 1D9100B42111F39E007DCF17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D91009B2111F39C007DCF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D91009C2111F39C007DCF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D9100A02111F39E007DCF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9100A12111F39E007DCF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D9100BA2111F39E007DCF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D9100BB2111F39E007DCF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D9100BD2111F39E007DCF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FETZFYKT5;
+				INFOPLIST_FILE = Trout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Trout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D9100BE2111F39E007DCF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FETZFYKT5;
+				INFOPLIST_FILE = Trout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Trout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D9100C02111F39E007DCF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FETZFYKT5;
+				INFOPLIST_FILE = TroutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TroutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trout.app/Trout";
+			};
+			name = Debug;
+		};
+		1D9100C12111F39E007DCF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FETZFYKT5;
+				INFOPLIST_FILE = TroutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TroutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trout.app/Trout";
+			};
+			name = Release;
+		};
+		1D9100C32111F39E007DCF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FETZFYKT5;
+				INFOPLIST_FILE = TroutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TroutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trout;
+			};
+			name = Debug;
+		};
+		1D9100C42111F39E007DCF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FETZFYKT5;
+				INFOPLIST_FILE = TroutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TroutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D91008F2111F39C007DCF17 /* Build configuration list for PBXProject "Trout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9100BA2111F39E007DCF17 /* Debug */,
+				1D9100BB2111F39E007DCF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9100BC2111F39E007DCF17 /* Build configuration list for PBXNativeTarget "Trout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9100BD2111F39E007DCF17 /* Debug */,
+				1D9100BE2111F39E007DCF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9100BF2111F39E007DCF17 /* Build configuration list for PBXNativeTarget "TroutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9100C02111F39E007DCF17 /* Debug */,
+				1D9100C12111F39E007DCF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9100C22111F39E007DCF17 /* Build configuration list for PBXNativeTarget "TroutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9100C32111F39E007DCF17 /* Debug */,
+				1D9100C42111F39E007DCF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D91008C2111F39C007DCF17 /* Project object */;
+}
